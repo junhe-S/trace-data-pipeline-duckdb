@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     # --- TRACE downloads/update ---
 
-    dl = WRDSDownloader()
+    dl = WRDSDownloader(wrds_username = "") # Please login WRDS website to get verification first.
     dl.run_all()    
 
     # --- Stage 0: TRACE cleaning ---
