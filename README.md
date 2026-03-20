@@ -58,9 +58,8 @@ trace-data-pipeline-duckdb/
 
 ## 📺 Related Video
 
-Click the thumbnail below to watch on YouTube:
-
-[![Watch on YouTube](https://img.youtube.com/vi/-yfoY1qa6zw/maxresdefault.jpg)](https://www.youtube.com/watch?v=-yfoY1qa6zw&t=8820s)
+For more background on the data processing workflow, watch this external YouTube video:
+▶️ [Watch on YouTube](https://www.youtube.com/watch?v=-yfoY1qa6zw&t=8820s)
 
 ---
 
