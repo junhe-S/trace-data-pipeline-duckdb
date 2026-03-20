@@ -59,3 +59,8 @@ trace-data-pipeline-duckdb/
 ## Credits
 
 This project builds upon the excellent foundational work by [Alexander M. Dickerson](https://github.com/Alexander-M-Dickerson/trace-data-pipeline/tree/main). All credit for the original pipeline design goes to the original authors.
+
+## Contact
+
+If you have any suggestions or feedback, feel free to reach out! 📧 [jun.he@nhh.no](mailto:jun.he@nhh.no)
+
