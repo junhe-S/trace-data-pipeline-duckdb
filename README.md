@@ -56,11 +56,20 @@ trace-data-pipeline-duckdb/
 
 ---
 
-## Credits
+## 💡 Tips & Suggestions
 
-This project builds upon the excellent foundational work by [Alexander M. Dickerson](https://github.com/Alexander-M-Dickerson/trace-data-pipeline/tree/main). All credit for the original pipeline design goes to the original authors.
+**Viewing DuckDB files without code:** A great open-source tool is [Beekeeper Studio](https://www.beekeeperstudio.io/), which provides an excellent graphical interface to browse and query DuckDB databases — no Python required. If you are familiar with SQL syntax, it is also a very quick way to explore the data.
+
+---
 
 ## Contact
 
-If you have any suggestions or feedback, feel free to reach out! 📧 [jun.he@nhh.no](mailto:jun.he@nhh.no)
+If you have any suggestions or feedback, feel free to reach out!
 
+📧 [jun.he@nhh.no](mailto:jun.he@nhh.no)
+
+---
+
+## Credits
+
+This project builds upon the excellent foundational work by [Alexander M. Dickerson](https://github.com/Alexander-M-Dickerson/trace-data-pipeline/tree/main). All credit for the original pipeline design goes to the original authors.
