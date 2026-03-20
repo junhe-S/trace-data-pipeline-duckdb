@@ -654,8 +654,8 @@ def clean_trace_data(
     filters: dict | None = None,
     n_workers: int = 8,
     temp_dir: str = "./temp/trace_enhanced",
-    db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace.duckdb",
-    output_db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace_clean.duckdb",
+    db_path: str = "./wrds_trace.duckdb",
+    output_db_path: str = "./wrds_trace_clean.duckdb",
 ):
     import os
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -2227,8 +2227,8 @@ def clean_agency_transactions(clean_combined,
     return clean_final
 # -------------------------------------------------------------------------
 def build_fisd(params: dict | None = None,
-               db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace.duckdb",
-               output_db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace_clean.duckdb"):
+               db_path: str = "./wrds_trace.duckdb",
+               output_db_path: str = "./wrds_trace_clean.duckdb"):
     """
     Build FISD bond universe with switchable screens.
 
@@ -2669,7 +2669,7 @@ class ProcessEnhancedTRACE:
 
     def _make_cusip_chunks(self,
                            fisd: pd.DataFrame,
-                           db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace.duckdb",):
+                           db_path: str = "./wrds_trace.duckdb",):
         self.logger.info("Creating CUSIP batches ...")
         
         # Get row counts per CUSIP from the raw trace data

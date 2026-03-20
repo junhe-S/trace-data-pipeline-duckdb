@@ -828,8 +828,8 @@ def clean_trace_data(
     filters: dict | None = None,
     n_workers: int = 8,
     temp_dir: str = "./temp/temp_",
-    db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace.duckdb",
-    output_db_path: str = "/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace_clean.duckdb",
+    db_path: str = "./wrds_trace.duckdb",
+    output_db_path: str = "./wrds_trace_clean.duckdb",
 ):
     import os
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -1913,7 +1913,7 @@ def build_fisd(params: dict | None = None, *, data_type: str = "standard"):
     p.update(params or {})
 
     # ---- 1) Pull raw FISD tables ------------------------------------
-    local_db = duckdb.connect(database='/Users/hejun/Documents/Data/Code/WRDS/function/trace-data-pipeline-main/wrds_trace.duckdb', read_only=True)
+    local_db = duckdb.connect(database='./wrds_trace.duckdb', read_only=True)
     fisd_issuer = local_db.execute("""
         SELECT issuer_id, country_domicile, sic_code
         FROM   fisd_mergedissuer
