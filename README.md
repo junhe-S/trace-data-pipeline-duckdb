@@ -56,6 +56,14 @@ trace-data-pipeline-duckdb/
 
 ---
 
+## 📺 Related Video
+
+Click the thumbnail below to watch on YouTube:
+
+[![Watch on YouTube](https://img.youtube.com/vi/-yfoY1qa6zw/maxresdefault.jpg)](https://www.youtube.com/watch?v=-yfoY1qa6zw&t=8820s)
+
+---
+
 ## 💡 Tips & Suggestions
 
 **Viewing DuckDB files without code:** A great open-source tool is [Beekeeper Studio](https://www.beekeeperstudio.io/), which provides an excellent graphical interface to browse and query DuckDB databases — no Python required. If you are familiar with SQL syntax, it is also a very quick way to explore the data.
